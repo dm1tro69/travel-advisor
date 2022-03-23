@@ -3,10 +3,10 @@ import useStyle from './styles'
 import {CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select, Card} from "@material-ui/core";
 import PlaceDetails from "../PlaceDetails/PlaceDetails";
 
-const List = ({places, childClicked, isLoading}) => {
+const List = ({places, childClicked, isLoading, rating, setRating, setType, type}) => {
     const classes = useStyle()
-    const [type, setType] = useState('restaurants')
-    const [rating, setRating] = useState(0)
+    console.log(type)
+
 
    const [elRefs, setElRefs] = useState([])
 
