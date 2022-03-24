@@ -2,6 +2,6 @@
 
 
 
-[DEMO](https://quiet-trravel-advisor.netlify.app/
+[DEMO](https://quiet-trravel-advisor.netlify.app/)
 
 
